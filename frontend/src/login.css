@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+/* Background */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+}
+
+/* Glass card */
+.login-card {
+  width: 340px;
+  padding: 40px 30px;
+  border-radius: 15px;
+  background: rgba(233, 120, 120, 0.1);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  color: #000000;
+  text-align: center;
+}
+
+.login-card h2 {
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 14px;
+  margin-bottom: 25px;
+  opacity: 0.8;
+}
+
+/* Floating input */
+.input-group {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 10px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #ff0000;
+}
+
+.input-group label {
+  position: absolute;
+  left: 10px;
+  top: 12px;
+  font-size: 14px;
+  color: #ff0000;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+/* Floating effect */
+.input-group input:focus + label,
+.input-group input:valid + label {
+  top: -8px;
+  left: 8px;
+  font-size: 11px;
+  background: #1f1c2c;
+  padding: 0 5px;
+  border-radius: 4px;
+}
+
+/* Button */
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #ff7a18;
+  background: linear-gradient(to right, #ff7a18, #ffb347);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(255, 122, 24, 0.4);
+}

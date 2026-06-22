@@ -1,0 +1,94 @@
+/* Main Background */
+.mainDiv {
+  background: #535353;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Search Section */
+.mainDiv h3 {
+  margin-right: 10px;
+}
+
+.mainDiv select,
+.mainDiv input {
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.mainDiv button {
+  margin-left: 10px;
+}
+
+/* Card Styling */
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+/* Hover Effect */
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Image */
+.card img {
+  object-fit: cover;
+  border-bottom: 2px solid #eee;
+}
+
+/* Card Body */
+.card-body {
+  padding: 15px;
+}
+
+/* Title */
+.card-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Text */
+.card-text p {
+  margin: 3px 0;
+  font-size: 14px;
+}
+
+/* Buttons */
+.card .btn {
+  flex: 1;
+}
+
+/* Grid spacing */
+.row {
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Modal Custom Styling */
+.modal-content {
+  border-radius: 15px;
+}
+
+/* Form Section Titles */
+form h5 {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* Input Fields */
+.form-control {
+  border-radius: 8px;
+}
+
+/* Update Button */
+form .btn-primary {
+  width: 100%;
+  font-weight: bold;
+}
